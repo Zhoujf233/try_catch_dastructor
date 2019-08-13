@@ -7,9 +7,20 @@
 //
 
 #include <iostream>
+#include <string>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int main(int argc, const char * argv[])
+{
+    void fun();
+    cout<<"main begin"<<endl;
+    cout<<"call fun()"<<endl;
+    try {
+        fun();
+    } catch (int n) {
+        cout<<"num = "<<n<<",error!"<<endl;
+    }
+    cout<<"main end"<<endl;
     return 0;
 }

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		51226A322302E1A90056DBEB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51226A312302E1A90056DBEB /* main.cpp */; };
+		51226A392302E2510056DBEB /* fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51226A382302E2510056DBEB /* fun.cpp */; };
+		51226A3C2302E2C10056DBEB /* get_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 51226A3B2302E2C10056DBEB /* get_data.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		51226A2E2302E1A90056DBEB /* try_catch_destructor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = try_catch_destructor; sourceTree = BUILT_PRODUCTS_DIR; };
 		51226A312302E1A90056DBEB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		51226A382302E2510056DBEB /* fun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fun.cpp; sourceTree = "<group>"; };
+		51226A3A2302E2860056DBEB /* Student.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Student.hpp; sourceTree = "<group>"; };
+		51226A3B2302E2C10056DBEB /* get_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = get_data.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				51226A312302E1A90056DBEB /* main.cpp */,
+				51226A382302E2510056DBEB /* fun.cpp */,
+				51226A3A2302E2860056DBEB /* Student.hpp */,
+				51226A3B2302E2C10056DBEB /* get_data.cpp */,
 			);
 			path = try_catch_destructor;
 			sourceTree = "<group>";
@@ -118,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51226A3C2302E2C10056DBEB /* get_data.cpp in Sources */,
 				51226A322302E1A90056DBEB /* main.cpp in Sources */,
+				51226A392302E2510056DBEB /* fun.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
